@@ -1,0 +1,30 @@
+# Streamlit secrets (contains sensitive credentials)
+.streamlit/secrets.toml
+
+# CSV data files (contains personal information)
+data.csv
+*.csv
+
+# Google Cloud Service Account JSON files
+*.json
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+venv/
+env/
+ENV/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
